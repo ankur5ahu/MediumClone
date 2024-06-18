@@ -4,11 +4,10 @@ export const Quote = () => {
       <div className="flex justify-center ">
         <div className="max-w-lg ">
           <div className="text-xl font-bold font-mono">
-            “My mama always said life was like a box of chocolates. You never
-            know what you're gonna get”
+            "The customer support i received was exceptional. The support team went above and beyond to address my concerns”
           </div>
           <div className="text-l font-semibold mt-2 text-slate-600">
-            Forest Gump, 1994
+            Julies Winfield
           </div>
 
         </div>
