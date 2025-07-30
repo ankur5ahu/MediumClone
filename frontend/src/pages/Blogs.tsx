@@ -39,7 +39,7 @@ if(loading){
               authorName={blog.author.name || "Anonymous"}
               title={blog.title}
               content={blog.content}
-              publishedDate={"21 March 2024"}
+              publishedDate={blog.published ?? ""}
             />
             )}
         </div>

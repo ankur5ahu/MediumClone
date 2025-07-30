@@ -10,7 +10,7 @@ export const FullBlog = ({ blog }: { blog: Blog }) => {
             <div className="grid grid-cols-4 pt-10 w-8/12">
                 <div className="col-span-3">
                     <div className="text-4xl font-extrabold pb-2">{blog.title}</div>
-                    <div className="pb-4 text-slate-500">Posted on 23 March, 2025</div>
+                    <div className="pb-4 text-slate-500">{blog.published ?? ""}</div>
                     <div>{blog.content}</div>
                 </div>
                 <div className="col-span-1 pl-20">
